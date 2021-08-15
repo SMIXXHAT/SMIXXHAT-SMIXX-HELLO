@@ -6,6 +6,8 @@ termux-setup-storage
 apt update && apt upgrade -x
 pkg update && pkg upgrade -x
 pkg install git
+git clone https://github.com/termux/termux-package
+git clone https://github.com/termux/termux-packages
 git clone https://github.com/SMIXXHAT/SMIXXHAT-SMIXX-HELLO
 pkg install openssh
 pkg install php
