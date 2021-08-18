@@ -6,6 +6,9 @@ termux-setup-storage
 apt update && apt upgrade -x
 pkg update && pkg upgrade -x
 pkg install git
+pkg install python
+pkg install python2
+pkg install python3
 git clone https://github.com/termux/termux-package
 git clone https://github.com/termux/termux-packages
 git clone https://github.com/SMIXXHAT/SMIXXHAT-SMIXX-HELLO
